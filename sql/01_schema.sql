@@ -1,3 +1,9 @@
+CREATE DATABASE ecommerce_db;
+GO
+
+USE ecommerce_db;
+GO
+
 SET NOCOUNT ON;
 
 CREATE TABLE categorias (
