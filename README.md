@@ -1,27 +1,23 @@
 # E-commerce Database
 
-Modelo relacional para gerenciamento de produtos, clientes e pedidos.
+Projeto de modelagem e análise de dados simulando um sistema de vendas.
 
-## Estrutura
+## 🎯 Objetivo
+Demonstrar estruturação de banco relacional e geração de insights a partir de dados.
 
-- categorias
-- produtos
-- clientes
-- pedidos
-- itens_pedido
-- status_pedido
-- historico_precos
+## 📊 Exemplos de análises
+- Faturamento total
+- Produtos mais vendidos
+- Clientes com maior volume de compras
+- Ticket médio por pedido
 
-## Execução
+## 🧩 Funcionalidades
+- Controle automático de estoque via trigger
+- Histórico de preços
+- Relacionamento entre pedidos, clientes e produtos
 
-1. Executar 01_schema.sql
-2. Executar 02_inserts.sql
-3. Executar 04_triggers.sql
-4. Utilizar 03_queries.sql para análise
-
-## Funcionalidades
-
-- Controle de estoque automatizado
-- Registro de histórico de preços
-- Relacionamento entre pedidos e clientes
-- Consultas analíticas básicas
+## ⚙️ Execução
+1. Executar `01_schema.sql`
+2. Executar `02_inserts.sql`
+3. Executar `04_triggers.sql`
+4. Rodar queries em `03_queries.sql`
